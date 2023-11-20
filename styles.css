@@ -4,6 +4,9 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     text-align: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 
 h3 {
@@ -30,6 +33,7 @@ p {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    max-width: 250px;
 }
 
 .qrcode-img {
